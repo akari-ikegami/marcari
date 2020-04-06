@@ -11,6 +11,7 @@
   border: none;
   width: 100%;
   background-color: #f5f5f5;
+  outline: none;
 }
 
 .form-button{
@@ -29,52 +30,6 @@
 .fa-red:before{
   color: red;
 }
-/* 
-ul > li{
-  display: inline-block;
-}
-
-ul > li > a{
-  padding: 15px 30px;
-  display: block;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-}
-
-ul > li >span{
-  margin-left: 1.2em;
-}
-
-/* ul > li:hover > a{
-  color: blue;
-} */
-/* 
-ul li ul{
-  position: absolute;
-  top: 55px;
-  left: 0;
-}
-
-ul li ul  li{
-  display: block;
-}
-
-.category1 ul li ul{
-  display: none;
-}
-
-.category1 ul li:hover ul{
-  display: block;
-}
-
-.category2 ul li ul{
-  display: none;
-}
-
-.category2 ul li:hover ul{
-  display: block;
-} */ 
 
 .gnav{
   display: flex;
@@ -120,4 +75,28 @@ ul li ul  li{
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.sign{
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: white;
+  background-color: #EE0000;
+  border: solid 1px #EE0000;
+  border-radius: 4px;
+}
+
+.login{
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #3a9bd8;
+  border: solid 1px #3a9bd8;
+  border-radius: 4px;
+}
+
+
+/* main */
+
+.main-img{
+  max-width: 100%;
 }
