@@ -114,3 +114,10 @@ ul li ul  li{
   height: 2rem;
   overflow: visible;
 }
+
+.gnav li ul li ul{
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
