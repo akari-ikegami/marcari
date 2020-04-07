@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding: 15px 0;
 }
 
 .form-box{
@@ -44,11 +44,18 @@
   display: flex;
   height: 2rem;
   margin: 0 auto;
-  /* width: 100px; */
+  /* width: 500px; */
+  /* padding: 10px 200px; */
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
 }
 
 .gnav > li{
-  width: 25%;
+  width: 10%;
 }
 
 .gnav li{
@@ -68,10 +75,11 @@
   height: 0;
   overflow: hidden;
   transition: .5s;
+
 }
 
 .gnav li li a{
-  border-top: 1px solid #eee;
+  background-color: white;
 }
 
 .gnav li:hover > ul > li{
@@ -87,16 +95,17 @@
 }
 
 .sign{
-  padding: 0.25em 0.5em;
+  padding: 0.5em 1em;
   text-decoration: none;
   color: white;
   background-color: #EE0000;
   border: solid 1px #EE0000;
   border-radius: 4px;
+  margin-left: 740px;
 }
 
 .login{
-  padding: 0.25em 0.5em;
+  padding: 0.5em 1em;
   text-decoration: none;
   color: #3a9bd8;
   border: solid 1px #3a9bd8;
@@ -118,12 +127,17 @@ h1{
 
 
 .picup{
-  padding: 0.25em 0.5em;
+  padding: 0.5em 2em;
   text-decoration: none;
   color: black;
   background-color: rgb(228, 228, 228);
   border: solid 1px rgb(228, 228, 228);
   border-radius: 20px;
+}
+
+.main-picup{
+  text-align: center;
+  padding: 20px 0;
 }
 
 
