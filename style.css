@@ -136,9 +136,6 @@ a{
   height: 160px;
 }
 
-
-
-
 .main-img{
   max-width: 100%;
 }
@@ -161,9 +158,42 @@ h1{
 
 .main-picup{
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 50px 0;
 }
 
+/* main2 */
+.title2{
+  font-size: 25px;
+  text-align: left;
+  padding: 50px 0 0 300px;
+}
+
+.main2{
+  height: 500px;
+  background-color: rgb(228, 228, 228);
+}
+
+.card{
+  /* margin: 30px auto; */
+  width: 200px;
+  background: white;
+  box-shadow: 0 2px 5px #ccc;
+  margin-left: 20px;
+}
+
+.card-img{
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content{
+  padding: 20px;
+}
+
+.card-text{
+  color: black;
+  line-height: 1.5;
+}
 
 /* footer */
 
@@ -180,7 +210,7 @@ h1{
 
 section{
   float: left;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 h2{
