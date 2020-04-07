@@ -127,6 +127,18 @@ a{
 
 /* main */
 
+.exhibition{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 300px;
+  width: 160px;
+  height: 160px;
+}
+
+
+
+
 .main-img{
   max-width: 100%;
 }
