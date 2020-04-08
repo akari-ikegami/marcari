@@ -200,6 +200,8 @@ h1{
 .footer{
   height: 400px;
   background-color: #222222;
+  display: flex;
+  justify-content: center;
 }
 
 
