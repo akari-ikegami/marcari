@@ -232,3 +232,47 @@ p{
   color: white;
   padding:10px;
 }
+
+/* スマホでの閲覧時のソースコード */
+ @media screen and (max-width: 750px) { 
+   h1{
+     font-size: 20px;
+   }
+
+   .exhibition{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 300px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .gnav{
+    display: block;
+    margin: 0 auto;
+    max-width: 550px;
+  }
+
+
+.header-logo{
+  display: block;
+}
+
+.form-box{
+  width: 450px;
+  margin: auto;
+}
+
+.title2{
+  font-size: 15px;
+}
+
+.footer{
+  display: block;
+  height: 800px;
+  padding-left: 20px;
+}
+
+ }
+ 
